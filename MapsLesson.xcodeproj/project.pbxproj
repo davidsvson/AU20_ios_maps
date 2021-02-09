@@ -13,6 +13,8 @@
 		63C7656325D27A3500612A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C7656225D27A3500612A39 /* Preview Assets.xcassets */; };
 		63C7656E25D27A3500612A39 /* MapsLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7656D25D27A3500612A39 /* MapsLessonTests.swift */; };
 		63C7657925D27A3500612A39 /* MapsLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7657825D27A3500612A39 /* MapsLessonUITests.swift */; };
+		63C7658A25D27EEC00612A39 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7658925D27EEC00612A39 /* Place.swift */; };
+		63C7658F25D28AE200612A39 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7658E25D28AE200612A39 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		63C7657425D27A3500612A39 /* MapsLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C7657825D27A3500612A39 /* MapsLessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsLessonUITests.swift; sourceTree = "<group>"; };
 		63C7657A25D27A3500612A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C7658925D27EEC00612A39 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		63C7658E25D28AE200612A39 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				63C7655F25D27A3500612A39 /* Assets.xcassets */,
 				63C7656425D27A3500612A39 /* Info.plist */,
 				63C7656125D27A3500612A39 /* Preview Content */,
+				63C7658925D27EEC00612A39 /* Place.swift */,
+				63C7658E25D28AE200612A39 /* LocationManager.swift */,
 			);
 			path = MapsLesson;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C7658F25D28AE200612A39 /* LocationManager.swift in Sources */,
+				63C7658A25D27EEC00612A39 /* Place.swift in Sources */,
 				63C7655E25D27A3100612A39 /* ContentView.swift in Sources */,
 				63C7655C25D27A3100612A39 /* MapsLessonApp.swift in Sources */,
 			);
